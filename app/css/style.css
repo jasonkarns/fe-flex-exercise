@@ -13,7 +13,6 @@ ul {
   justify-content: space-between;
   align-content: space-between;
 
-
 }
 
 li {
@@ -29,3 +28,13 @@ li {
   font-size: 3em;
   text-align: center;
 }
+
+li:nth-child(3) {
+  background:red;
+  order:1;
+}
+li:nth-child(7) {
+  background:red;
+  order: -1;
+}
+
